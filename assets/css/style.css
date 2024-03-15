@@ -1,0 +1,39 @@
+body {
+  background-color: #166b86;
+}
+
+.random__password {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-start;
+  width: 80%;
+  margin: 0% auto;
+  position: relative;
+}
+
+h1 {
+  color: white;
+  text-transform: capitalize;
+}
+
+.generate__button button {
+  background-color: #03384e;
+  border: none;
+  color: white;
+}
+
+.generate__button button:hover {
+  background-color: #03384e;
+  color: white;
+}
+
+.copied {
+  background-color: black;
+  position: absolute;
+  color: white;
+  padding: 5px;
+  top: 5px;
+  right: -5px;
+  display: none;
+}
